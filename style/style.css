@@ -1241,7 +1241,7 @@ svg:hover .footer_social_hover {
         width: 65px;
     }
     .header_left h1 {
-        width: 365px;
+        width: 360px;
         font-size: 44px;
         padding-left: 15px;
     }
@@ -1270,14 +1270,14 @@ svg:hover .footer_social_hover {
     }
     .header_left div {
         display: block;
+        width: 360px;
+        text-align: center;
     }
     .header_button_left {
-        width: 345px;
-        margin-left: 15px;
+        width: 325px;
     }
     .header_button_right {
-        width: 345px;
-        margin-left: 15px;
+        width: 325px;
         margin-top: 10px;
     }
     .header_stats {
@@ -1292,5 +1292,15 @@ svg:hover .footer_social_hover {
     }
     .main {
         height: 980px;
+    }
+    .featured_blok h1 {
+        font-size: 1px;
+    }
+    .why_body {
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+    .why_content p {
+        width: 335px;
     }
 }
