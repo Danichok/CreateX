@@ -1190,6 +1190,17 @@ svg:hover .footer_social_hover {
     color: #F52F6E;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+    background-color: #FEDAD4;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FF8672;
+    border-radius: 9em;
+}
+
 @media (max-width:1250px) {
     .container {
         max-width: 1040px;
@@ -1249,7 +1260,7 @@ svg:hover .footer_social_hover {
         width: 270px;
     }
     .evenets_blok_button {
-        margin-left: -36px;
+        margin-left: 0px;
     }
     .favorites {
         display: block;
@@ -1265,7 +1276,7 @@ svg:hover .footer_social_hover {
         margin-left: 15px;
     }
     .play_button {
-        margin-top: 30px;
+        margin-top: 40px;
         padding-left: 15px;
     }
     .header_left div {
@@ -1294,13 +1305,185 @@ svg:hover .footer_social_hover {
         height: 980px;
     }
     .featured_blok h1 {
-        font-size: 1px;
+        font-size: 15px;
     }
     .why_body {
         margin-top: 40px;
         margin-left: 15px;
+        margin-bottom: 0px;
     }
     .why_content p {
         width: 335px;
+    }
+    .why_content button {
+        width: 330px;
+        margin-top: 25px;
+    }
+    .why_content h2 {
+        font-size: 35px;
+    }
+    .featured {
+        margin-top: 70px;
+    }
+    .featured_blok {
+        display: block;
+        height: unset;
+        border: 2px solid transparent;
+        box-shadow: unset;
+        width: 100%;
+        text-align: center;
+    }
+    .skils_marketing {
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .skils_management {
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .skils_hr {
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .skils_design {
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .featured_haeder h1 {
+        margin-left: 15px;
+    }
+    .featured_haeder h2 {
+        font-size: 35px;
+        margin-left: 15px;
+    }
+    .featured_haeder {
+        display: block;
+    }
+    .featured_haeder button {
+        width: 325px;
+        margin-left: 15px;
+    }
+    .featured {
+        margin-bottom: 80px;
+    }
+    .favorites_button {
+        width: unset;
+        margin-top: 10px;
+    }
+    .favorites {
+        margin-top: 10px;
+    }
+    .benefits_body {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .benefits_body h1 {
+        font-size: 25px;
+    }
+    .benefits_body p {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .evenets_blok {
+        height: unset;
+        margin-top: 10px;
+    }
+    .evenets_blok_contents {
+        display: block;
+        text-align: center;
+    }
+    .evenets_blok_info h1 {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .evenets_blok_button {
+        margin-left: 0px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .events_footer div {
+        text-align: center;
+    }
+    .events_footer button {
+        margin-left: unset;
+        margin-top: 10px;
+    }
+    .certificate {
+        margin-top: 410px;
+    }
+    .events_plot h2 {
+        font-size: 32px;
+    }
+    .benefits_plot h2 {
+        font-size: 36px;
+    }
+    .certificate_contents h1 {
+        margin-left: 15px;
+    }
+    .certificate_contents h2 {
+        margin-left: 15px;
+        font-size: 21px;
+        margin-top: 22px;
+    }
+    .certificate_contents p {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .sponsor {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .team_slider {
+        margin-left: 35px;
+        width: 295px;
+    }
+    .team_header h2 {
+        font-size: 36px;
+    }
+    .team_header {
+        display: block;
+    }
+    .slider_button {
+        margin-left: 100px;
+        justify-content: space-between;
+        margin-top: 40px;
+        margin-right: 100px;
+    }
+    .team_header h1 {
+        text-align: center;
+    }
+    .team_header h2 {
+        text-align: center;
+    }
+    .request_contets {
+        padding-top: 50px;
+    }
+    .request {
+        height: 350px;
+    }
+    .request_contets button {
+        margin-top: 30px;
+    }
+    .request_contets input {
+        margin-top: 30px;
+    }
+    .blog {
+        display: none;
+    }
+    .footer_map {
+        display: none;
+    }
+    .footer_contact {
+        display: none;
+    }
+    .logo_body {
+        margin-left: 15px;
+    }
+    .copyright {
+        margin-left: 15px;
     }
 }

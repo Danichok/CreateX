@@ -29,3 +29,23 @@ $(document).ready(function() {
         }
     });
 });
+if ($(window).width() < 750) {
+    let offset = 0;
+    const sliderLine = document.querySelector('.team_slider_line');
+
+    document.querySelector('.slider_button_right').addEventListener('click', function() {
+        offset = offset + 318;
+        if (offset > 1590) {
+            offset = 0;
+        }
+        sliderLine.style.left = -offset + 'px';
+    });
+
+    document.querySelector('.slider_button_left').addEventListener('click', function() {
+        offset = offset - 318;
+        if (offset < 0) {
+            offset = 1590;
+        }
+        sliderLine.style.left = -offset + 'px';
+    });
+}
